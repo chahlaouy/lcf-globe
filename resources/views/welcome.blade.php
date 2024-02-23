@@ -194,16 +194,16 @@
                         class="w-full bg-white md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
                         <ul class="md:flex items-center">
                             <li><a class="py-2 inline-block md:text-white md:hidden lg:block font-semibold"
-                                    href="#">About Us</a></li>
+                                    href="#about-us">About Us</a></li>
                             <li class="md:ml-4"><a class="py-2 inline-block md:text-white md:px-2 font-semibold"
-                                    href="#">Treatments</a></li>
+                                    href="#treatment">Treatments</a></li>
                             <li class="md:ml-4"><a class="py-2 inline-block md:text-white md:px-2 font-semibold"
-                                    href="#">Testimonials</a></li>
+                                    href="#testimonials">Testimonials</a></li>
                             <li class="md:ml-4 md:hidden lg:block"><a
                                     class="py-2 inline-block md:text-white md:px-2 font-semibold"
-                                    href="#">Blog</a></li>
+                                    href="#blog">Blog</a></li>
                             <li class="md:ml-4"><a class="py-2 inline-block md:text-white md:px-2 font-semibold"
-                                    href="#">Contact
+                                    href="#cta">Contact
                                     Us</a></li>
                             <li class="md:ml-6 mt-3 md:mt-0">
                                 <a class="inline-block font-semibold px-4 py-2 text-white bg-blue-600 md:bg-transparent md:text-white border border-white rounded"
@@ -218,7 +218,7 @@
         <!-- end header -->
 
         <!-- start hero -->
-        <div class="bg-gray-100">
+        <div id="treatment" class="bg-gray-100">
             <section
                 class="cover bg-blue-teal-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex
           items-center min-h-screen">
@@ -248,7 +248,7 @@
         <!-- end hero -->
 
         <!-- start about -->
-        <section class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-32">
+        <section id="about-us" class="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-32">
             <div class="flex flex-col lg:flex-row lg:-mx-8">
                 <div class="w-full lg:w-1/2 lg:px-8">
                     <h2 class="text-3xl leading-tight font-bold mt-4">Welcome to the Dentist Office of Dr. Thomas
@@ -337,7 +337,7 @@
         <!-- end about -->
 
         <!-- start testimonials -->
-        <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32">
+        <section id="testimonials" class="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-16 lg:py-32">
             <div class="flex flex-col lg:flex-row lg:-mx-8">
                 <div class="w-full lg:w-1/2 lg:px-8">
                     <h2 class="text-3xl leading-tight font-bold mt-4">Why choose the Mesothelioma Center?</h2>
@@ -362,7 +362,7 @@
         <!-- end testimonials -->
 
         <!-- start blog -->
-        <section class="relative bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-32">
+        <section id="blog" class="relative bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-32">
             <div class="">
                 <h2 class="text-3xl leading-tight font-bold">Health Blog</h2>
                 <p class="text-gray-600 mt-2 md:max-w-lg">Pellentesque habitant morbi tristique senectus et netus et
@@ -425,8 +425,7 @@
         <!-- end blog -->
 
         <!-- start cta -->
-        <section
-            class="relative bg-blue-teal-gradient px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 text-center md:text-left">
+        <section id="cta" class="relative bg-blue-teal-gradient px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 text-center md:text-left">
             <div class="md:flex md:items-center md:justify-center">
                 <h2 class="text-xl font-bold text-white">Get in touch with us today! <br class="block md:hidden">Call
                     us on: +1
